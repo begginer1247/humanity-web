@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tugsuuhost</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        
+        <div class="signin">
+            <div class="content">
+                
+                <img src="logo-full.jpg" alt="Description of Image" class="center-image">
+                <div class="form">
+                    <div class="inputBox">
+                        <input type="text" id="username" required>
+                        <i>Нэвтрэх нэр</i>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" id="password" required>
+                        <i>Нууц үг</i>
+                    </div>
+                    <div class="links">
+                        <a href="#">Нууц үгээ мартсан уу?</a>
+                        <a href="#">Бүртгүүлэх?</a>
+                    </div>
+                    <div class="inputBox">
+                        <input type="button" value="Нэвтрэх" onclick="login()">
+                    </div>
+                    <p id="error-message" style="color: red; display: none;">Нууц үг таарсангүй дахиад оролдно уу</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
